@@ -8,7 +8,7 @@ public class WebServer {
     public static void main(String[] args) throws IOException {
 
         // instantiates server socket and assigns port
-        ServerSocket serverSocket = new ServerSocket(8081);
+        ServerSocket serverSocket = new ServerSocket(8080);
 
 
         while (true) {
@@ -25,7 +25,7 @@ public class WebServer {
 
     public static void handler(Socket clientSocket) {
 
-        File htmlFile = new File("resources/index.html");
+        File htmlFile = new File("SimpleWebServer/resources/index.html");
 
         BufferedReader br = null;
 
