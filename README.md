@@ -11,4 +11,4 @@ Handles HTTP GET requests and serves an HTML file.
 
 2 - Open the project and run the SimpleWebServer class.
 
-3 - Open a web browser and navigate to ``localhost:8081``.
+3 - Open a web browser and navigate to ``localhost:8080``.
